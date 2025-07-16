@@ -2,7 +2,7 @@
 
 namespace App\MessageHandler;
 
-use App\Message\Event\UserRegistered;
+use App\Domain\Event\UserRegistered;
 use Symfony\Component\Messenger\Attribute\AsMessageHandler;
 
 #[AsMessageHandler]
